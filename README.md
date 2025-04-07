@@ -21,6 +21,27 @@ A modern, responsive, and dynamic frontend web application designed using **Reac
 
 ## 🚀 Project Structure
 
+HD Globe Trade/
+│
+├── index.html                # HTML entry point
+├── package.json              # Project metadata and dependencies
+├── vite.config.js            # Vite build configuration
+├── tailwind.config.js        # Tailwind theming and utility config
+├── postcss.config.js         # PostCSS setup for Tailwind
+├── .gitignore                # Git ignored files
+│
+├── public/                   # Static public assets (e.g., favicon, images)
+│
+├── src/                      # Main source code directory
+│   ├── assets/               # Images, fonts, and other static assets
+│   ├── components/           # Reusable React UI components
+│   ├── data/                 # Static data files (JSON, etc.)
+│   ├── pages/                # Page-level components (Home, About, Contact)
+│   ├── sections/             # Section-based layout components
+│   ├── App.jsx               # Root component
+│   └── main.jsx              # Application entry script
+│
+└── dist/                     # Production-ready build output (after `npm run build`)
 
 ---
 
